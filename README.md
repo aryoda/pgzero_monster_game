@@ -11,10 +11,6 @@ Aber Vorsicht, Monster verfolgen dich. Wenn du sie berührst, ist das Spiel vorb
 ![Monster Game Level 1](Monster_Game_Level_1.png)
 
 
-# Screen shots
-
-
-
 # Entwickler
 
 - Level designs und Grafiken: S + M
@@ -68,7 +64,7 @@ Das bedeutet, du kannst den Quellcode
 - verändern
 - veröffentlichen
 
-solange du ein paar Spielregeln einhältst, welche in der Lizenz-Datei beschrieben sind.
+solange du ein paar Spielregeln einhältst, welche in der [Lizenz-Datei](LICENSE) beschrieben sind.
 
 
 ## Fremde Bild-Dateien
@@ -89,3 +85,11 @@ Diese Bilder stehen unter folgender Lizenz:
 >
 >	Request:  http://request.kenney.nl/
 
+
+# Screen shots
+
+![Lebkuchenmann-Level](Lebkuchenmann_Level.png)
+
+![Kaninchen-Level](Kaninchen-Level.png)
+
+![Unwetter-Level](Unwetter-Level.png)
