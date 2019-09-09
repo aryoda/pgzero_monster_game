@@ -1,8 +1,8 @@
 # pgzero monster game
 
-This is a python game based on the library pgzero ([Pygame zero](https://pygame-zero.readthedocs.io/en/stable/index.html)) created in a python learning project during the school holidays
+This is a python game based on the library pgzero ([Pygame zero](https://pygame-zero.readthedocs.io/en/stable/index.html)) created in a python learning project during the school holidays 2019
 
-Dieses Spiel ist das Ergebnis eines Python-Lern-Projekts in den großen Schulferien. Es basiert auf der Bibliothek pgzero ([Pygame Zero](https://pygame-zero.readthedocs.io/en/stable/index.html)).
+Dieses Spiel ist das Ergebnis eines Python-Lern-Projekts in den großen Schulferien 2019. Es basiert auf der Bibliothek pgzero ([Pygame Zero](https://pygame-zero.readthedocs.io/en/stable/index.html)).
 
 Ziel des Spiels ist es, in einem Irrgarten möglichst viele Punkte durch Sammeln von Objekten zu bekommen, um den Highscore anzuführen.
 
