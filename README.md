@@ -85,8 +85,7 @@ Diese Bilder stehen unter folgender Lizenz:
 >	You may use these graphics in personal and commercial projects.
 >	Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
 >
->			------------------------------
->
 >	Donate:   http://donate.kenney.nl/
+>
 >	Request:  http://request.kenney.nl/
 
