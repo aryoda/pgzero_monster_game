@@ -49,7 +49,7 @@ Lass' dir am Besten von deinen Eltern oder Freunden helfen...
   
   Starte das Spiel mit
   
-    python3 monster_game
+    python3 monster_game.py
 
 
 
