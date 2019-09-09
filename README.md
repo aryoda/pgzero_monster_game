@@ -1,4 +1,4 @@
-# pgzero monster game
+# pgzero monster game - Intro
 
 This is a python game based on the library pgzero ([Pygame zero](https://pygame-zero.readthedocs.io/en/stable/index.html)) created in a python learning project during the school holidays 2019
 
@@ -51,6 +51,15 @@ Lass' dir am Besten von deinen Eltern oder Freunden helfen...
   
     python3 monster_game.py
 
+
+
+# Spiele mit Python programmieren lernen
+
+Das folgende Buch wurde verwendet, damit die Kinder Python und die Spiele-Entwicklung mit `pgzero` lernen:
+
+[Spiele mit Python® supereasy programmieren](https://www.dorlingkindersley.de/buch/carol-vorderman-spiele-mit-python-supereasy-programmieren-9783831036752)
+
+Das Buch ist auch in der englischen Original-Ausgabe verfügbar
 
 
 # Lizenz
