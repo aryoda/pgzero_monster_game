@@ -25,8 +25,6 @@ Die eigenen Grafiken wurden mit dem kostenlosen (Open-Source-)Malprogramm [Pinta
 
 # Installation
 
-Lass' dir am Besten von deinen Eltern oder Freunden helfen...
-
 1. Python 3 installieren auf deinem Computer
 
    Z. B. von hier runterladen: https://www.python.org/downloads/
