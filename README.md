@@ -15,12 +15,16 @@ Aber Vorsicht, Monster verfolgen dich. Wenn du sie berührst, ist das Spiel vorb
 
 - Level designs und Grafiken: S + M
 - Testing: S + M + C
-- Game Engine Programming: #Daddy + S
+- Game Engine Programming: #Daddy
+- Game programming: #Daddy + S
 
 Das Spiel wurde unter **Ubuntu-Linux** entwickelt, ist aber auch auf Windows und Mac OS-X lauffähig.
 
 Die eigenen Grafiken wurden mit dem kostenlosen (Open-Source-)Malprogramm [Pinta](https://pinta-project.com/pintaproject/pinta/) erstellt bzw. verändert.
 
+Die Game Engine erleichtert die Entwicklung von 2D-Spielen mit Grafiken ("Tiles" = Kacheln) in einem 2D-Gitter ("Grid").
+2D-Karten und die dazugehören Grafiken können über Textdateien "gezeichnet" und konfiguriert werden,
+ohne dass Python-Code geändert werden muss.
 
 
 # Installation
