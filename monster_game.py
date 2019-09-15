@@ -51,7 +51,7 @@ MAP_HEIGHT = 0  # wird später von initialize_level() berechnet
 
 os.environ['SDL_VIDEO_CENTERED'] = '1'
 
-level = 12    # aktuelle Level-Nummer
+level = 1    # aktuelle Level-Nummer
 
 MAX_HIGHSCORE_ENTRIES = 10   # Konstante für maximale Anzahl der Highscore-Einträge
 HIGHSCORE_FILE_NAME = "highscores.json"

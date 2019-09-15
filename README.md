@@ -77,6 +77,10 @@ Das bedeutet, du kannst den Quellcode
 
 solange du ein paar Spielregeln einhältst, welche in der [Lizenz-Datei](LICENSE) beschrieben sind.
 
+Im `images`-Verzeichnis sind mehr Bilder abgespeichert, als in den Spiel-Leveln
+verwendet werden. So kann man selbst eigene Level entwerfen, ohne lange nach
+Grafiken suchen zu müssen.
+
 
 ## Fremde Bild-Dateien
 
