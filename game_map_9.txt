@@ -1,0 +1,16 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x       Z          Z         x
+x        Z       Z           x
+x       Z                    x
+x      Z                   ZZx
+xxxxxxxxxxxxxxxxxxxxxxxxxxx  x
+xPPP PPP PPP PPP PPP PPP PPP x
+xPPP PPP PPP PPP PPP PPP PPP x
+xaaxxxxxxxxxxxxxxxxxxxxxxxx  x
+xhxhxhxhxhxhxhxhxhxhxhxhxhx  x
+x P   h        h    h     x  x
+xaaaaaaaaaaaaaaaaaaaaaaaaatx x
+xhththtxxxxxxxxxxxxxxxxxxxx  x
+xaxaxaxa a a a a a a a a a a x
+x a a a a a a a a a a a a a ax
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,7 @@
+P=slayer1
+Z=barnacle
+x=element_grey_square
+r=signright
+l=signleft
+h=signexit_mod
+a=swordgold

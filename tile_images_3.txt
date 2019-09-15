@@ -1,0 +1,6 @@
+P=slayer1
+Z=bunny2_stand
+x=element_grey_square
+t=tochlit
+h=signexit_mod
+a=gemblue

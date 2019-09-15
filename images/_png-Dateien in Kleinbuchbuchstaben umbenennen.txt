@@ -1,0 +1,9 @@
+pgzero kann nur PNG-Dateien einlesen als Actor, wenn diese in Kleinbuchstaben geschrieben sind.
+
+Um alle Dateien des akt. Verzeichnisses umzubenennen, ist dieses Linux-Bash-Kommando hilfreich:
+
+
+for i in $( ls | grep [A-Z] ); do mv -i $i `echo $i | tr 'A-Z' 'a-z'`; done
+
+
+

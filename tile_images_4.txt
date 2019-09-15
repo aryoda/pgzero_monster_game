@@ -1,0 +1,6 @@
+P=slayer1
+Z=ghost
+x=elementmetal049
+t=chicken
+h=flagblue
+a=stargold

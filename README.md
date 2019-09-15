@@ -8,7 +8,7 @@ Ziel des Spiels ist es, in einem Irrgarten möglichst viele Punkte durch Sammeln
 
 Aber Vorsicht, Monster verfolgen dich. Wenn du sie berührst, ist das Spiel vorbei!
 
-![Monster Game Level 1](Monster_Game_Level_1.png)
+![Monster Game Level 1](screenshots/Monster_Game_Level_1.png)
 
 
 # Entwickler
@@ -95,8 +95,8 @@ Diese Bilder stehen unter folgender Lizenz:
 
 # Screen shots
 
-![Lebkuchenmann-Level](Lebkuchenmann_Level.png)
+![Lebkuchenmann-Level](screenshots/Lebkuchenmann_Level.png)
 
-![Kaninchen-Level](Kaninchen-Level.png)
+![Kaninchen-Level](screenshots/Kaninchen-Level.png)
 
-![Unwetter-Level](Unwetter-Level.png)
+![Unwetter-Level](screenshots/Unwetter-Level.png)

@@ -1,0 +1,7 @@
+P=slayer1
+Z=blockermad
+x=element_grey_square
+t=windowlowcheckered
+h=door_closedmid
+d=door_closedtop
+a=keyyellow

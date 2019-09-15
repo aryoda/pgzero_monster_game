@@ -1,0 +1,6 @@
+P=slayer1_m
+Z=lebkuchen_mann2
+x=element_grey_square
+t=zuckerwattenbaum
+h=lebkuchenhaus_m
+a=zuckerstange

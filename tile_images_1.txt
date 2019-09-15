@@ -1,0 +1,6 @@
+P=slayer1
+Z=ghost
+h=signexit_mod
+x=element_grey_square
+t=pinesapling
+a=coingold

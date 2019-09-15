@@ -1,0 +1,6 @@
+P=slayer1
+Z=cloud_rain_mod
+x=element_grey_square
+t=mushroomred
+h=signexit_mod
+a=umbrellaclosed

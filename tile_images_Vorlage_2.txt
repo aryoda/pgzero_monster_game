@@ -1,0 +1,6 @@
+P=hero
+Z=bunny2_stand
+x=cover
+t=flower
+h=house
+a=one-egg

@@ -1,0 +1,38 @@
+The images used for this game were downloaded here (see the licenses there):
+
+by Kenney Vleugels for Kenney (www.kenney.nl)
+
+
+	License (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	You may use these graphics in personal and commercial projects.
+	Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
+
+			------------------------------
+
+	Donate:   http://donate.kenney.nl/
+	Request:  http://request.kenney.nl/
+
+
+-----------------
+
+TODO: Herkunft der Bilder unklar, löschen?
+
+x hero
+x dot
+x tree
+x apple
+x flower
+x house
+x one-egg
+x coin -> coin_36
+x hero2
+x fox
+? cover
+? zombie_stand
+? zombie_stand
++ bunny2_stand
++ chicken
++ cow
+
