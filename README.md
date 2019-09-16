@@ -33,11 +33,16 @@ ohne dass Python-Code geändert werden muss.
 
    Z. B. von hier runterladen: https://www.python.org/downloads/
 
-2. Pygame Zero installieren
+2. Benötigte Python-Bibliotheken installieren
 
    In der Kommandozeile ("Terminal") eingeben:
 
-    pip install pgzero
+```
+pip3 install pgzero
+    
+pip3 install tkinter
+```
+
 
 3. Das Spiel runterladen
 
@@ -66,9 +71,15 @@ Das Buch ist auch in der englischen Original-Ausgabe verfügbar
 
 # Lizenz
 
-## Quellcode des Spiels und selbst erstelle Bild-Dateien
+## Quellcode des Spiels und selbst erstellte Bild-Dateien
 
 Dieses Spiel wird als Open Source mit der GPLv3-Lizenz veröffentlicht.
+
+Infos zur GPLv3 findet man hier:
+
+1. https://de.wikipedia.org/wiki/GNU_General_Public_License
+2. http://www.gnu.de/documents/gpl.de.html
+
 Das bedeutet, du kannst den Quellcode
 
 - studieren
