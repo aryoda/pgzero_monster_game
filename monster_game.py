@@ -51,7 +51,7 @@ MAP_HEIGHT = 0  # wird später von initialize_level() berechnet
 
 os.environ['SDL_VIDEO_CENTERED'] = '1'
 
-level = 12    # aktuelle Level-Nummer
+level = 1    # aktuelle Level-Nummer
 
 MAX_HIGHSCORE_ENTRIES = 10   # Konstante für maximale Anzahl der Highscore-Einträge
 HIGHSCORE_FILE_NAME = "highscores.json"
@@ -63,12 +63,13 @@ level_files = [
     ("game_map_4.txt", "tile_images_4.txt"),
     ("game_map_5.txt", "tile_images_5.txt"),
     ("game_map_6.txt", "tile_images_6.txt"),
+    ("game_map_11.txt", "tile_images_11.txt"),
+    ("game_map_10.txt", "tile_images_10.txt"),
     ("game_map_7.txt", "tile_images_7.txt"),
     ("game_map_8.txt", "tile_images_8.txt"),
     ("game_map_9.txt", "tile_images_9.txt"),
-    ("game_map_11.txt", "tile_images_11.txt"),
-    ("game_map_10.txt", "tile_images_10.txt"),
-    ("game_map_m_2.txt", "tile_images_m_2.txt")
+    ("game_map_m_2.txt", "tile_images_m_2.txt"),
+    # ("game_map_m_3.txt", "tile_images_m_3.txt")
 ]
 
 game_map = []     # enthält das 2D-Gitternetz ("map") mit den einzelnen Bild-Kacheln ("tiles")
@@ -310,16 +311,18 @@ def draw():
 
     screen.clear()
 
-    # draw game map
-    for line_no in range(len(game_map)):
-        line = game_map[line_no]
-        for col_no in range(len(line)):
-            tile = line[col_no]
-            # print(tile)
-            # Paint the tile if a tile image exists for the tile (code).
-            # The space character eg. is not found leaving the black background
-            if tile in tile_images:  # tile != " ":
-                screen.blit(tile_images[tile], (col_no * TILE_WIDTH, line_no * TILE_HEIGHT))
+    # TODO Refactor into a reusable function (that is UI-related, not engine-related)
+    engine.draw_game_map(screen, game_map, tile_images, TILE_WIDTH, TILE_HEIGHT)
+    # # draw game map
+    # for line_no in range(len(game_map)):
+    #     line = game_map[line_no]
+    #     for col_no in range(len(line)):
+    #         tile = line[col_no]
+    #         # print(tile)
+    #         # Paint the tile if a tile image exists for the tile (code).
+    #         # The space character eg. is not found leaving the black background
+    #         if tile in tile_images:  # tile != " ":
+    #             screen.blit(tile_images[tile], (col_no * TILE_WIDTH, line_no * TILE_HEIGHT))
 
     if started and not game_over and not level_completed:
         remaining_time = time_limit - round(time() - start_time)
@@ -442,6 +445,7 @@ highscores.load_highscores()
 # Das ist aber konsistent mit Game Over: Letzter Spielzustand wird angezeigt, bis man im Level 1 neu startet
 initialize_level()
 
+# print(__name__)  # Modulname ist "pgzero.builtins" (wird anscheinend beim Import von pgzero geändert)
 
 pgzrun.go()
 

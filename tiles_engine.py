@@ -199,3 +199,17 @@ def find_random_map_pos(game_map, map_width, map_height, player_x, player_y, min
     return((map_x, map_y))  # Ergebnis ist ein Tupel
 
 
+# TODO The game engine should not depend on visualisation objects like "screen"
+#      OTOH: This engine is already "polluted" with pgzero objects so a separation is not minimizing the dependencies
+def draw_game_map(screen, game_map, tile_images, TILE_WIDTH, TILE_HEIGHT):
+
+    for line_no in range(len(game_map)):
+        line = game_map[line_no]
+        for col_no in range(len(line)):
+            tile = line[col_no]
+            # print(tile)
+            # Paint the tile if a tile image exists for the tile (code).
+            # The space character eg. is not found leaving the black background
+            if tile in tile_images:  # tile != " ":
+                screen.blit(tile_images[tile], (col_no * TILE_WIDTH, line_no * TILE_HEIGHT))
+

@@ -77,4 +77,3 @@ class GameLevel:
 
     def get_screen_height(self):
         return self._screen_heigth
-

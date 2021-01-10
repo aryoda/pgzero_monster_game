@@ -3,4 +3,4 @@ Z=bunny2_stand
 x=cover
 t=zuckerwattenbaum
 h=signexit_mod
-a=one-keyyellow
+a=keyyellow
